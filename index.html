@@ -87,15 +87,91 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-2 text-light">
-                        <h2 class="">Residential complex in the historical center</h2>
-                        
+                    <div class="col-md-6 ">
+                        <div class="accordion " id="mainAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button bg-dark-subtle " type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                        Part 1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body text-white bg-dark">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quibusdam
+                                        praesentium aspernatur nisi, enim unde ex magni fuga, natus aut itaque. Pariatur
+                                        ducimus at ab architecto delectus eveniet odit fuga!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-dark-subtle " type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                        Part 2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body text-white bg-dark">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla soluta alias ex
+                                        voluptatibus nesciunt facere unde, vel recusandae dicta dolor vitae reiciendis
+                                        perspiciatis natus molestiae. Quas iste saepe excepturi ex?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-dark-subtle " type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                        Part 3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body text-white bg-dark">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem molestias
+                                        dolore quod hic! In dolorem, ipsam minus facere dolore magni numquam
+                                        consequatur, illo sit sequi reiciendis ipsa beatae est?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-2 text-light-emphasis">
-                        <p class="fs-5">Lorem Ipsum is dummy text often used in printing and web design. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the early 16th century. An unnamed
-                            printer at the time created a large collection of type sizes and shapes using Lorem Ipsum to
-                            produce type specimens.</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="disabledTextInput" class="form-label">Name</label>
+                                <input type="text" id="disabledTextInput" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="disabledEmailInput" class="form-label">Email address</label>
+                                <input type="email" id="disabledEmailInput" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="disabledPasswordInput" class="form-label">Password</label>
+                                <input type="password" id="disabledPasswordInput" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                                <select id="disabledSelect" class="form-select">
+                                    <option>Why it's good</option>
+                                    <option>How it works</option>
+                                    <option>Templates</option>
+                                    <option>Pricing</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                                    <label class="form-check-label" for="disabledFieldsetCheck">
+                                        Can't check this
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -103,15 +179,18 @@
     </main>
     <footer>
         <div class="bg-dark pt-5 ">
-            <div class="footer-block container d-flex justify-content-between ">
-                <p class=" text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et pariatur labore rerum
-                    illo ea placeat voluptate. Pariatur sed eius dolor corporis, nulla quisquam porro quas cupiditate?
-                    Eaque fugiat accusamus perferendis ea ullam corporis corrupti animi repellat tenetur quas aperiam,
-                    praesentium laboriosam ipsum facere exercitationem quod nulla, odio laudantium ut itaque natus
-                    minima. Esse saepe ea sunt tempora, laborum velit soluta ipsam expedita quam nam a repellat iure
-                    labore illo quae. Ad pariatur nemo voluptatibus praesentium possimus delectus, sunt deleniti eos
-                    temporibus ipsa voluptas saepe quasi rerum vero iusto deserunt eligendi minima fugiat quo odio ipsam
-                    quod sint officia? Voluptas, corporis?</p>
+            <div class="footer-block container d-flex justify-content-between">
+                <div class="col-md-1 text-white">
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 text-secondary"
+                        href="https://github.com/dashboard">Git hub</a>
+                    <p>MY GIT HUB</p>
+                </div>
+                <div class="col-md-10 text-white">
+                    <p>Hello, I created this project to understand the essence of how bootstrap works, and I would like
+                        to tell you my impressions, it is very convenient to use the framework, but in order to
+                        thoroughly understand the construction of the site, you need to learn, this is what I will do,
+                        since it is very convenient to use</p>
+                </div>
             </div>
         </div>
     </footer>
