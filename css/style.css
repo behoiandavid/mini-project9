@@ -6,6 +6,28 @@
     font-size: 20px;
 }
 
+
+@media (min-width: 600px) and (max-width: 1023px) {
+
+    .carousel-inner {
+        width: 515px;
+    }
+
+    .carousel-control-prev {
+        width: 100px;
+    }
+
+    .col-md-3 {
+        flex: 1 0 auto;
+        width: 16.66666667%;
+    }
+
+    .carousel-control-next {
+        width: 100px;
+    }
+
+}
+
 @media (min-width: 320px) and (max-width: 599px) {
     .nav {
         display: none;
